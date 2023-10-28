@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Karla, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  padding: auto;
+  background-color: #212428;
+}
+
+.nav-bar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.left-nav {
+  display: flex;
+  gap: 0 20px;
+  padding-bottom: 30px;
+}
+
+.pix {
+  width: auto;
+  height: 80px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.ul-1 {
+  list-style: none;
+  font-weight: 700px;
+  font-size: larger;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.ul-2 {
+  list-style: none;
+  display: flex;
+  gap: 0 40px;
+  font-size: small;
+}
+
+.section-1 {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.section-1 {
+  width: auto;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  align-items: center;
+}
+
+.sectn-div {
+  padding-right: 60px;
+}
+
+.section-image {
+  width: 400px;
+  height: auto;
+  transition-duration: 400ms;
+}
+
+h3 {
+  padding-bottom: 30px;
+}
+
+.h1 {
+  padding-bottom: 30px;
+  font-weight: 500px;
+  font-size: large;
+}
+
+.h2 {
+  padding-top: 20px;
+}
+
+.sectn2-div {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.section2 {
+  padding-left: 30px;
+}
+
+.feature {
+  color: firebrick;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  display: block;
+}
+
+.what-I-do {
+  color: white;
+  font-size: 40px;
+}
+
+.section2-content {
+  color: white;
+}
+
+.grid {
+  flex-wrap: wrap;
+  display: grid;
+  color: white;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+}
+
+.grid-item {
+  padding-left: 40px;
+  box-sizing: border-box;
+  box-shadow: 15rem;
+  border-radius: 20px;
+  margin: 15px;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+  background-color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition-duration: 400ms;
+}
+
+.text {
+  text-align: center;
+}
+
+.horizon-line {
+  color: black;
+}
+
+.sectn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.grid-card {
+  margin: 50px;
+  color: black;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 50px;
+  padding: 10px 8px 10px 8px;
+}
+
+.horiline {
+  color: red;
+}
+
+.vid {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.bgvid {
+  background: red;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.bgvid video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.bgvid p {
+  color: #ffffff;
+  z-index: 9;
+}
+
+.p {
+  margin-top: -100px;
+}
